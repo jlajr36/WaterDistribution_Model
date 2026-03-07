@@ -1,0 +1,30 @@
+### **UR_10 → SR_10: Bacteria Removal System Requirement**
+
+* **System Requirement:**
+  The water treatment system shall include one or more **bacteria removal mechanisms** (e.g., ultrafiltration, UV disinfection, chemical treatment) capable of achieving a **minimum 5-log (≥99.999%) reduction** of viable bacteria under nominal operating conditions.
+* **Verification Method:**
+
+  * Laboratory challenge tests using representative bacterial strains.
+  * Measure input and output concentrations and confirm ≥5-log reduction.
+
+---
+
+### **UR_11 → SR_11: Parasite Removal System Requirement**
+
+* **System Requirement:**
+  The water treatment system shall include **mechanisms effective against protozoa and helminths**, capable of achieving a **minimum 3-log (≥99.9%) reduction** under nominal operating conditions.
+* **Verification Method:**
+
+  * Use surrogate parasites or certified test organisms in controlled tests.
+  * Measure reduction in output water to confirm ≥3-log reduction.
+
+---
+
+### **UR_12 → SR_12: Contaminant Disposal System Requirement**
+
+* **System Requirement:**
+  The water treatment system shall incorporate a **contaminant handling module** that collects, isolates, and disposes of removed bacteria, parasites, and other contaminants **in compliance with all local and international environmental regulations**.
+* **Verification Method:**
+
+  * Audit the disposal process for regulatory compliance.
+  * Inspect containment integrity and confirm proper treatment/disposal of waste.
