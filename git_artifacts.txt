@@ -1,0 +1,6 @@
+https://raw.githubusercontent.com/jlajr36/WaterDistribution_Model/refs/heads/main/requirements.txt
+https://raw.githubusercontent.com/jlajr36/WaterDistribution_Model/refs/heads/main/use_case.txt
+https://raw.githubusercontent.com/jlajr36/WaterDistribution_Model/refs/heads/main/safe.txt
+https://raw.githubusercontent.com/jlajr36/WaterDistribution_Model/refs/heads/main/Parasite_act.txt
+https://raw.githubusercontent.com/jlajr36/WaterDistribution_Model/refs/heads/main/Bacteria_act.txt
+https://raw.githubusercontent.com/jlajr36/WaterDistribution_Model/refs/heads/main/concept.txt
