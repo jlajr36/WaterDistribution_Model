@@ -1,0 +1,15 @@
+These are three technical requirement blocks.
+Each is paired with a corresponding rationale document.
+These requirements are a part of a water treatment or purification system design.
+
+### **1. Bacteria Removal (UR_10)**
+*   **Requirement:** The system is mandated to achieve at least a **5-log (≥99.999%) reduction** of viable bacteria concentration in contaminated input water. This must be achieved under nominal operating conditions.
+*   **Rationale:** This high level of reduction is necessary because bacterial pathogens in water can cause serious diseases. A 5-log reduction specifically aligns with **internationally accepted drinking water safety targets** and ensures the water meets public health protection standards.
+
+### **2. Parasite Removal (UR_11)**
+*   **Requirement:** The system must achieve a minimum **3-log (≥99.9%) reduction** of waterborne parasites under nominal operating conditions.
+*   **Rationale:** This requirement addresses parasites like **protozoa and helminths**, which are often resistant to standard disinfection methods and pose significant gastrointestinal health risks. A 3-log reduction is considered sufficient to lower the probability of infection to an acceptable public health risk level.
+
+### **3. Safe Contaminant Disposal (UR_12)**
+*   **Requirement:** The system is required to **collect, isolate, and dispose** of removed contaminants. This disposal must be performed in accordance with all applicable environmental regulations.
+*   **Rationale:** Because captured biological contaminants may remain **viable and hazardous**, improper disposal could lead to environmental contamination, regulatory violations, and secondary public health risks. Controlled disposal is necessary to ensure environmental compliance and safety throughout the system's lifecycle.

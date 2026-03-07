@@ -1,0 +1,27 @@
+This is a **Use Case Diagram** for a **Water Distribution System Boundary**
+The diagram illustrating the interactions between various stakeholders, external systems, and the core functions of the water distribution infrastructure.
+
+### **System Boundary and Use Cases**
+The central tan box represents the **Water Distribution System Boundary**, containing six primary use cases (actions or functions):
+*   **Maintain Tower Level:** This is a primary operation involving the monitoring and regulation of water levels.
+*   **Respond to Tower Low Low Level:** This use case is connected to "Maintain Tower Level" via an **`<<extend>>` relationship**, triggered specifically at the "Tower Low Low Level" extension point.
+*   **Dispose of Filtered Waste:** Handles the removal of waste products from the filtration process.
+*   **Ensure Microbiological Compliance:** Focuses on meeting health and safety standards for water quality.
+*   **Maintain Control Logic:** Involves the technical upkeep of the system's programming and operational rules.
+*   **Report System Issues:** A function for providing feedback on system failures or problems.
+
+### **Stakeholders (Actors)**
+On the left side of the diagram, four human stakeholders are identified:
+*   **System Operator:** Manages the tower levels, responds to critical low-level alerts, and oversees waste disposal.
+*   **Public Health Official:** Involved in both the disposal of filtered waste and ensuring microbiological compliance.
+*   **Controls Engineer:** Responsible solely for maintaining the control logic of the system.
+*   **Homeowner:** Engages with the system specifically to report issues.
+
+### **External Systems and Components**
+On the right side, several external entities interact with the system's functions:
+*   **Water Tower, Supply Reservoir, and Electrical Utility System:** All three are linked to the **Maintain Tower Level** use case, indicating their roles in the physical distribution and powering of the system.
+*   **Test Lab:** Collaborates with the **Ensure Microbiological Compliance** use case to verify water safety.
+
+### **Additional Details**
+*   **Comment Box:** A note in the bottom right specifies that the diagram covers **daily operations, regulatory safety, technical maintenance, user feedback, and environmental compliance**.
+*   **Header:** The top left of the frame identifies the package as `uc [Package] 04 Use Cases [ 04 Use Cases ]`.

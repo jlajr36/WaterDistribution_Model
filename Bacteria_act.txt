@@ -1,0 +1,18 @@
+This is an **Activity Diagram** titled **"Bacteria Removal,"** which outlines the step-by-step process for treating contaminated water within the system.
+
+### **Process Flow**
+The diagram follows a logical sequence from the intake of water to its final output:
+*   **Start Point:** The process begins at the solid black circle at the top of the diagram.
+*   **Initial Intake:** The first action is to **Receive Contaminated Water**.
+*   **Treatment:** The system then proceeds to **Apply Physical Filtration and/or Disinfection**.
+*   **Monitoring:** After treatment, the system must **Measure Bacteria Concentration**.
+
+### **Decision Logic and Feedback Loop**
+The diagram includes a critical decision point to ensure water safety:
+*   **Safety Threshold:** The system asks, **"Bacteria ≤ 0.1%?"**.
+*   **Corrective Action (NO):** If the concentration is **not** below the threshold, the process follows a branch to **Adjust Treatment Parameters**. A dashed line indicates a **feedback loop**, sending the process back to the initial "Receive Contaminated Water" stage for re-treatment.
+*   **Completion (YES):** If the threshold is met, the system proceeds to **Output Safe Water**.
+*   **End Point:** The process concludes at the "bullseye" symbol at the bottom.
+
+### **Header and Watermarks**
+*   **Title:** The top header identifies the diagram as `act [Activity] Bacteria Removal [ Bacteria Removal ]`.

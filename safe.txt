@@ -1,0 +1,9 @@
+This is an **Activity Diagram** outlining the procedural steps for **Safe Contaminant Disposal**. The process is designed to ensure that all waste materials are handled according to regulatory standards before final disposal.
+
+The workflow consists of the following detailed steps:
+
+*   **Initial Collection:** The process begins with the **collection of contaminants** directly from treatment units.
+*   **Containment:** Once collected, these contaminants are **isolated in a safe container** to prevent leakage or exposure.
+*   **Regulatory Validation:** A critical step follows where the system must **check compliance with environmental regulations**.
+*   **Compliance Decision Point:** After the check, a decision is made based on whether the contaminants or the current disposal method are **non-compliant**:
+    *   **If Non-Compliant ([YES]):** The process undergoes a corrective loop. The **disposal method must be modified**, and the contaminants are **isolated again**. Following this, the process loops back to the very first step—collecting contaminants from the treatment units—to restart the safety
