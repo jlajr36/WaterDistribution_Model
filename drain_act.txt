@@ -1,0 +1,12 @@
+This is an **activity diagram** titled **"Tank Drain Time Analysis"**. It outlines the logical flow of a system designed to monitor and respond to water levels in a tank.
+
+The process follows this sequence:
+
+*   **Start and Initialization:** The flow begins at a solid black **initial node** and moves to an action labeled **`tankDrainTime_test`**.
+*   **Monitoring Loop:** The diagram then enters a central control region (indicated by the dashed box) via a diamond-shaped merge node. The first action within this section is to **`: Read Water Level`**.
+*   **Decision Logic:** Based on the water level reading, the system evaluates three specific conditions:
+    *   **Critical Low Level:** If the water level is **less than or equal to "Low-Low"**, the system will **`Trigger Fault`**. This path leads directly to the **Activity Final Node** (the circled dot), which terminates the process.
+    *   **Low Level:** If the level is **less than or equal to "low"**, the system triggers the action **`: Turn Pump On`**.
+    *   **High Level:** If the level is **greater than or equal to "high"**, the system triggers the action **`: Turn Pump Off`**.
+
+The diagram uses standard modeling symbols, including **rounded rectangles** for actions, **diamonds** for decision/merge points, and **arrows** to indicate the flow of control.
