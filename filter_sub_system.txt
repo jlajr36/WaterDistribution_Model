@@ -1,0 +1,18 @@
+The source image contains three different SysML (Systems Modeling Language) diagrams related to a system called **Filter SS**:
+
+### 1. Block Definition Diagram (BDD)
+This diagram defines the **Filter SS** block. It identifies two specific value properties associated with the system:
+*   **contaminated water**
+*   **clean water**
+
+### 2. Satisfy Matrix (SFM)
+This table shows the relationship between the system's properties and its requirements. 
+*   **Requirements:** The matrix lists several system requirements, including **SR_5 (Contaminant)**, **SR_5.1 (Bacteria)**, **SR_5.2 (Parasite)**, and **SR_6 (Safe Contaminant)**.
+*   **Satisfaction:** Both the **clean water** and **contaminated water** value properties are shown to **"Satisfy (Implied)"** these requirements, as indicated by the dashed blue arrows in the legend and matrix cells.
+
+### 3. State Machine Diagram (STM)
+This diagram illustrates the operational states of the **Filter SS** process:
+*   **Initial State:** The process begins and enters the **Contaminated Water** state.
+*   **Transition:** It then moves into the **Remove Contamination** state.
+*   **Outcome:** After contamination is removed, the system enters the **Clean Water** state.
+*   **Final State:** The process concludes after reaching the Clean Water state.
