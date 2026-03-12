@@ -1,0 +1,83 @@
+In **SysML (and UML) block/class diagrams**, the **diamond symbols** indicate **whole–part relationships** between elements. The **color of the diamond** tells you how strong the ownership is.
+
+## 1. Black Diamond ◆ — Composition (Strong Ownership)
+
+* **Meaning:** Strong **whole–part** relationship.
+* The **whole owns the parts**.
+* If the **whole is deleted, the parts are deleted too**.
+* A part usually **cannot exist independently** of the whole. ([<b>SysML Forum</b>][1])
+
+**Example**
+
+```
+Car ◆── Engine
+```
+
+Interpretation:
+
+* The **Engine is a part of the Car**
+* If the **Car is removed, the Engine instance goes away with it**
+
+**Key idea:** *Lifecycle dependency*
+
+Common SysML usage:
+
+* System → subsystem
+* Aircraft → wing
+* Computer → CPU
+
+---
+
+## 2. White Diamond ◇ — Shared Aggregation (Weak Ownership)
+
+* **Meaning:** Weak **whole–part** relationship.
+* The part **can exist independently** of the whole.
+* The part **can potentially be shared by multiple wholes**. ([<b>SysML Forum</b>][1])
+
+**Example**
+
+```
+Team ◇── Player
+```
+
+Interpretation:
+
+* A **Team has Players**
+* But a **Player can exist without that team** (or move to another team)
+
+**Key idea:** *Reference or shared component*
+
+---
+
+## Quick Comparison
+
+| Symbol          | Name            | Ownership | Lifecycle                    | Example       |
+| --------------- | --------------- | --------- | ---------------------------- | ------------- |
+| ◆ Black Diamond | **Composition** | Strong    | Part dies with whole         | Car → Engine  |
+| ◇ White Diamond | **Aggregation** | Weak      | Part can exist independently | Team → Player |
+
+---
+
+✅ **Rule of thumb used in SysML modeling:**
+
+* **Black diamond = “part of” the system structure**
+* **White diamond = “has a / shared with” relationship**
+
+---
+
+💡 **Tip for SysML Block Definition Diagrams (BDD):**
+Most **physical system hierarchies use black diamonds** because subsystems are usually **true parts** of the system.
+
+Example:
+
+```
+Aircraft ◆── Wing
+Aircraft ◆── Engine
+Aircraft ◆── Avionics
+```
+
+---
+
+If you want, I can also show you the **4 most common SysML arrows (diamond, triangle, dependency, association)** in one simple cheat sheet — that helps a lot for exams and interviews.
+
+[1]: https://sysmlforum.com/sysml-faq/what-are-diff-among-part-shared-referenced-associations.html?utm_source=chatgpt.com "SysML FAQ: What are difference among Part, Shared & Referenced Associations?"
